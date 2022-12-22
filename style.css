@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+body{
+    width: 100%;
+}
+.header{
+    text-align: center;
+    background-color:#F2F3F7;
+}
+.background{
+    width: 980px;
+    height: 832px;
+    position: relative;
+}
+.header_box{
+    width: 974px;
+    height: 77px;
+    position:absolute;
+    background-color:#ffffff;
+    bottom: 690px;
+    left: 250px;
+}
+.logo{
+    position:absolute;
+    left: 37px;
+    top: 21px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+    font-family: 'Noto Sans JP', sans-serif;
+    justify-content: space-around;
+    padding-left: 250px;
+    font-size: 14px;
+    bottom: 5px;
+}
+.menu_jp{
+    position: relative;
+    bottom: 15px;
+    font-size: 10px;
+    color: #777;
+}
+.menu_line::after{
+    position: absolute;
+    content: "　　　　 |";
+}
